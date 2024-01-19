@@ -1,5 +1,7 @@
-# ruby-cli-template
+# Flashcards CLI
+A command line interface app to simulate a flashcard deck
 
-Use this repository as a template for your Ruby CLI (command line interface) project.
+## Usage
+Run `ruby app.rb` in the terminal
 
 - Ruby version: `3.2.1`
