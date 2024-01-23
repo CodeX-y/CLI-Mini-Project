@@ -6,6 +6,12 @@ class Flashcards
     @deck = Deck.new
   end
 
+  private
+
+  attr_reader :deck # Add this line for testing purposes
+
+  public
+
   def run
     loop do
       puts "\nFlashcard CLI - Welcome!"
@@ -28,8 +34,6 @@ class Flashcards
       end
     end
   end
-
-  private
 
   def view_flashcards
     if @deck.flashcards.empty?
